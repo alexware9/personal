@@ -1,0 +1,107 @@
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css';
+
+
+
+:root {
+    --primary-color: #7b2ff7;
+    --primary-hover-color: #6420d9;
+
+    --dark-color: #0a0a1f;
+    --accent-color: #00f7ff;
+
+    --light-text-color: white;
+    --dark-text-color: #333;
+
+    --body-padding-top: 3rem;
+
+    --space-gradient: linear-gradient(45deg, #0a0a1f, #1a1a3f);
+    --card-gradient: linear-gradient(90deg, #0a0a1f, #1a1a3f);
+
+    --box-shadow-color: rgba(123, 47, 247, 0.15);
+
+}
+
+body,
+html {
+    font-size: 100%;
+    background-color: var(--dark-color);
+    color: var(--light-text-color);
+
+}
+
+body {
+    padding-top: var(--body-padding-top);
+}
+
+/* Navigation */
+.navbar {
+    background: rgba(10, 10, 31, 0.85);
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 0.12rem 1.25rem var(--box-shadow-color);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent-color);
+}
+
+/* Sections */
+
+section {
+    background: var(--space-gradient);
+}
+
+    /* Hero */
+    .hero {
+        /* position: relative; */
+        min-height: calc(100vh - var(--body-padding-top));
+        background: linear-gradient(rgba(11, 11, 31, 0.85), rgba(7, 7, 37, 0.95)),
+            url('assets/images/black-hole.jpg') center/cover;
+    }
+
+    /* Skills */
+    .card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0.12rem 1.25rem var(--box-shadow-color);
+        color: var(--light-text-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.12rem 1.25rem var(--primary-hover-color);
+    }
+
+/* Buttons */
+
+.btn-primary, .btn-primary.disabled {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0rem 0rem 1rem rgba(123, 47, 247, 0.5);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover-color);
+    border-color: var(--primary-hover-color);
+    box-shadow: 0rem 0rem 1rem rgba(123, 47, 247, 0.8);
+}
+
+/* Images */
+.profile-image {
+    opacity: 0.8;
+    box-shadow: 0 0 3rem var(--box-shadow-color);
+}
+
+/* Icons */
+.fa-check-circle {
+    color: var(--accent-color);
+}
+
+.social-links i {
+    transition: color 0.3s ease;
+}
+.social-links i:hover {
+    color:  var(--accent-color);
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Ware Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fa-solid fa-user-astronaut me-2"></i>
+        Alex Ware
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://medium.com/@alexware9">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.fr.html">FR</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero d-flex align-items-center">
+    <div class="container text-center">
+      <h1 class="display-4 mb-3">
+        <i class="fa fa-rocket-takeoff me-2"></i>
+        Web & Mobile Developer
+      </h1>
+      <p class="lead mb-4">Coding at light speed. Escaping legacy black holes</p>
+      <a href="#contact" class="btn btn-primary btn-lg">
+        <i class="fa fa-envelope-paper me-2"></i>Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">
+        <i class="fa fa-user me-2"></i>About Me
+      </h2>
+      <div class="row justify-content-around align-items-center">
+        <div class="col-md-5">
+          <img src="./assets/images/galaxy.jpg" alt="Profile" class="img-fluid rounded profile-image">
+        </div>
+        <div class="col-md-6">
+          <p class="lead">
+            Hello! I'm Alex. I'm a full stack web & mobile developer and indie hacker with over 5 years of experience working with
+            React, React Native and Laravel.
+          </br>
+            I enjoy finding solutions for painful problems and turning them into user-friendly apps.
+          </p>
+          <div class="mt-4">
+            <!-- <a href="#" class="btn btn-outline-primary me-2">
+              <i class="fa fa-file-earmark-text me-2"></i>Download CV
+            </a> -->
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa fa-collection me-2"></i>View Projects
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">
+        <i class="fa fa-tools me-2"></i>Skills
+      </h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa-regular fa-window-maximize me-2"></i>Web Development
+              </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check-circle"></i> HTML, CSS & Typescript</li>
+                <li><i class="fa fa-check-circle"></i> React</li>
+                <li><i class="fa fa-check-circle"></i> Bootstrap</li>
+                <li><i class="fa fa-check-circle"></i> JQuery</li>
+                <li><i class="fa fa-check-circle"></i> Laravel</li>
+                <li><i class="fa fa-check-circle"></i> Cloud & VPS Management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-mobile-screen me-2"></i>Mobile Development
+              </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check-circle"></i> React Native</li>
+                <li><i class="fa fa-check-circle"></i> Expo</li>
+                <li><i class="fa fa-check-circle"></i> Android Studio</li>
+                <li><i class="fa fa-check-circle"></i> Mobile UX/UI</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-database me-2"></i>Database Management
+              </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check-circle"></i> Relational Databases</li>
+                <li><i class="fa fa-check-circle"></i> MySql, MariaDB, Oracle</li>
+                <li><i class="fa fa-check-circle"></i> PL/SQL</li>
+                <li><i class="fa fa-check-circle"></i> Data Warehouse</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-object-group" aria-hidden="true"></i> Software Design
+              </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check-circle"></i> UML</li>
+                <li><i class="fa fa-check-circle"></i> ERD</li>
+                <li><i class="fa fa-check-circle"></i> BPMN</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-chalkboard-user me-2"></i>Tutoring
+              </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check-circle"></i> Web Development</li>
+                <li><i class="fa fa-check-circle"></i> Linux</li>
+                <li><i class="fa fa-check-circle"></i> Docker</li>
+                <li><i class="fa fa-check-circle"></i> Spaced Repetition</li> 
+                <li><i class="fa fa-check-circle"></i> Notion</li>
+                <li><i class="fa fa-check-circle"></i> Trello</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-chart-line me-2"></i>Data Analysis
+              </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check-circle"></i> Python</li>
+                <li><i class="fa fa-check-circle"></i> Scrapy</li>
+                <li><i class="fa fa-check-circle"></i> Anaconda</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-film me-2"></i>Video Editing
+              </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check-circle"></i> Blender</li>
+                <li><i class="fa fa-check-circle"></i> Canva</li>
+                <li><i class="fa fa-check-circle"></i> Heygen</li>
+                <li><i class="fa fa-check-circle"></i> Sora</li>
+                <li><i class="fa fa-check-circle"></i> Adobe Promiere Pro</li>
+                <li><i class="fa fa-check-circle"></i> Adobe After Effects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-gear me-2"></i>Tools & Technologies
+              </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check-circle"></i> Prompt Engineering (ChatGPT, Mistral, Claude, Bolt)</li>
+                <li><i class="fa fa-check-circle"></i> Version Control (Git, Github, Gitlab)</li>
+                <li><i class="fa fa-check-circle"></i> TDD (Jest & Pest)</li>
+                <li><i class="fa fa-check-circle"></i> Docker</li>
+                <li><i class="fa fa-check-circle"></i> Workflow Automation (n8n)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-comments me-2"></i>Spoken Languages
+              </h5>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-check-circle"></i> English (Fluent)</li>
+                <li><i class="fa fa-check-circle"></i> French (Fluent)</li>
+                <li><i class="fa fa-check-circle"></i> German (Conversational)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">
+        <i class="fa fa-kanban me-2"></i> Projects
+      </h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="./assets/images/adhdtasker.png" class="card-img-top" alt="ADHD Tasker app">
+            <div class="card-body">
+              <h5 class="card-title">ADHD Toolkit</h5>
+              <p class="card-text">
+                A set of productivity tools designed for people with ADHD. <br/>
+                Includes a ToDo app that allows users to: <br/>
+                <ul>
+                  <li>Recursively create tasks and sub-tasks</li>
+                  <li>Visualize tasks on a canvas with a tree structure.</li>
+                </ul>
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://adhdtoolkit.app/" target="_blank" class="btn btn-primary">
+                <i class="fa fa-eye"></i> View project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <!-- <img src="./assets/images/planets.jpg" class="card-img-top" alt="Project 1"> -->
+            <div class="card-body">
+              <h5 class="card-title">Feuilliages</h5>
+              <p class="card-text">
+                A Yellow Pages like website listing
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="feuillages.html" target="_blank" class="btn btn-primary disabled" aria-disabled="true">
+                <i class="fa fa-eye"></i> View project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <!-- <img src="./assets/images/planets.jpg" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">MiamMiam!</h5>
+              <p class="card-text">
+                A mobile food delivery application for iOS and Android
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="miammiam.html" target="_blank" class="btn btn-primary disabled" aria-disabled="true">
+                <i class="fa fa-eye"></i> View project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">
+        <i class="fa fa-share-fill me-2"></i>Connect with me
+      </h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+          <a href="https://alex-ware.kit.com/fed20cd15d" target="_blank" class="btn btn-primary btn-lg">
+            Subscribe to my Newsletter
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container d-flex flex-column align-items-center text-center">
+      <div class="social-links w-25 d-flex justify-content-between mb-3">
+        <a href="https://github.com/alexware9" class="text-white" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/alex-d-74a234359/" class="text-white" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p class="mb-0">© 2025 Alex Ware. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
